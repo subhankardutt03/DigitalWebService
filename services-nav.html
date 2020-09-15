@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+
+    <title>services</title>
+
+    <style>
+        .bgimg img {
+            height: 100vh;
+        }
+
+        .slide-caption {
+
+            position: absolute;
+            display: block;
+            background: rgba(0, 0, 0, 0.6);
+            max-width: 600px;
+            max-height: 150px;
+            margin-left: 23%;
+            margin-bottom: 15%;
+            border-radius: 20px;
+
+        }
+
+        .slide-caption p {
+            font-size: 20px;
+        }
+
+        .courses {
+            margin-top: 35px;
+        }
+
+        .courseArea {
+            margin-top: 70px;
+        }
+
+        .slider-area {
+            background: #262626;
+            padding: 50px 0;
+            position: relative;
+            margin: 120px 0;
+
+
+        }
+
+        .carousel-control.left,
+        .carousel-control.right {
+            background: transparent;
+        }
+
+        .img-area {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .img-area img {
+            width: 100%;
+        }
+
+        .client-caption {
+            position: static;
+            padding-bottom: 15px;
+            padding-top: 0;
+        }
+
+        .text-area {
+            margin-bottom: -50px;
+        }
+
+        .client-caption h3 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+
+        .client-caption p {
+            font-size: 18px;
+            margin: auto;
+            width: 70%;
+            margin-bottom: 10px;
+        }
+
+        .c1:hover,
+        .c1.active {
+            background-color: #dd4dda;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .c2:hover,
+        .c2.active {
+            background-color: #52dd4d;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .c3:hover,
+        .c3.active {
+            background-color: #f0d122;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .c4:hover,
+        .c4.active {
+            background-color: #e96b22;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .our_services {
+            background-image: url('images/bg2.jpg');
+            background-size: 100% 100%;
+            height: 100%;
+            width: 100%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <div class="container head">
+                <a href="" class="navbar-brand text-warning font-weight-bold" style="font-size:40px;"> COREWEB</a>
+
+                <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+    
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>-->
+
+                <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item c1">
+                            <a href="index.php " class="nav-link text-white">
+                                HOME
+                            </a>
+                        </li>
+
+                        <li class="nav-item active c2 active">
+                            <a href="services-nav.html" class="nav-link text-white">
+                                SERVICES
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item c3">
+                            <a href="about.html " class="nav-link text-white">
+                                ABOUT US
+                            </a>
+                        </li>
+
+
+                        <!--<li class="nav-item">
+                                <a href=" " class="nav-link text-white">
+                                    TEAM
+                                </a>
+                            </li>-->
+
+                        <li class="nav-item c4">
+                            <a href="contact.html " class="nav-link text-white">
+                                CONTACT US
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="login.php" class="nav-link text-white">
+                                <button type="submit" name="login" class="btn btn-primary login-btn">Login</button>
+                            </a>
+                        </li>
+
+
+                        <!--<li class="nav-item">
+                                <a href="admin.php" class="nav-link text-white">
+                                    <button type="submit" name="userDetails" class="btn btn-danger login-btn"
+                                    style="width:150px;">users detail</button>
+                                </a>
+                            </li>-->
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+    <section class="container-fluid text-center our_services ">
+
+        <h1> SERVICES </h1>
+        <p> Our Team always ready to give best services </p>
+
+        <div class="row row_setting">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="img_setting d-block m-auto text-white"><i class="fa fa-shopping-cart fa-3x"></i></div>
+
+                <h2> Digital marketing </h2>
+                <p style="text-align:justify;">If you are wondering what
+                    digital marketing is…
+                    it’s is
+                    advertising
+                    delivered
+                    through digital channels. Channels such as social media, mobile applications, email, web
+                    applications,
+                    search engines, websites, or any new digital channel.
+                </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="img_setting d-block m-auto text-white"><i class="fa fa-desktop fa-3x"></i></div>
+
+                <h2> Responsive Design </h2>
+                <p style="text-align:justify;">Almost every new client these days wants a mobile
+                    version of their
+                    website.
+                    It’s practically essential after all: one design for the BlackBerry, another for the iPhone, the
+                    iPad,
+                    netbook, Kindle — and all screen resolutions must be compatible, too.
+                </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="img_setting d-block m-auto text-white"><i class="fa fa-unlock-alt fa-3x"></i></div>
+
+                <h2> Web security </h2>
+                <p style="text-align:justify;">Web security is also known as “Cybersecurity”. It
+                    basically means
+                    protecting
+                    a website or web application by detecting, preventing and responding to cyber threats.
+                    Websites and web applications are just as prone to security breaches as physical homes.
+                </p>
+            </div>
+            <br><br>
+        </div>
+
+        <div class="row row_setting">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="img_setting d-block m-auto text-white"><i class="fa fa-gamepad fa-3x"
+                        style="margin-top: 15px;" aria-hidden="true"></i>
+                </div>
+
+                <h2> Animation </h2>
+                <p style="text-align:justify;">If you are wondering what digital marketing is… it’s is advertising
+                    delivered
+                    through digital channels. Channels such as social media, mobile applications, email, web
+                    applications,
+                    search engines, websites, or any new digital channel.
+                </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="img_setting d-block m-auto text-white"><i class="fa fa-android fa-3x"
+                        style="margin-top: 15px;" aria-hidden="true"></i></div>
+
+                <h2> Web Application </h2>
+                <p style="text-align:justify;">Almost every new client these days wants a mobile version of their
+                    website.
+                    It’s practically essential after all: one design for the BlackBerry, another for the iPhone, the
+                    iPad,
+                    netbook, Kindle — and all screen resolutions must be compatible, too.
+                </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="img_setting d-block m-auto text-white"><i class="fa fa-window-maximize fa-3x"
+                        style="margin-top: 15px;" aria-hidden="true"></i></div>
+
+                <h2> Web Development </h2>
+                <p style="text-align:justify;">Web security is also known as “Cybersecurity”. It basically means
+                    protecting
+                    a website or web application by detecting, preventing and responding to cyber threats.
+                    Websites and web applications are just as prone to security breaches as physical homes.
+                </p>
+            </div>
+            <br><br>
+        </div>
+
+
+
+    </section>
+
+
+
+</body>
+
+</html>

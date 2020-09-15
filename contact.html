@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+
+    <title>contact us </title>
+
+    <style>
+        .bgimg img {
+            height: 100vh;
+        }
+
+        .slide-caption {
+
+            position: absolute;
+            display: block;
+            background: rgba(0, 0, 0, 0.6);
+            max-width: 600px;
+            max-height: 150px;
+            margin-left: 23%;
+            margin-bottom: 15%;
+            border-radius: 20px;
+
+        }
+
+        .slide-caption p {
+            font-size: 20px;
+        }
+
+        .courses {
+            margin-top: 35px;
+        }
+
+        .courseArea {
+            margin-top: 70px;
+        }
+
+        .slider-area {
+            background: #262626;
+            padding: 50px 0;
+            position: relative;
+            margin: 120px 0;
+
+
+        }
+
+        .carousel-control.left,
+        .carousel-control.right {
+            background: transparent;
+        }
+
+        .img-area {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .img-area img {
+            width: 100%;
+        }
+
+        .client-caption {
+            position: static;
+            padding-bottom: 15px;
+            padding-top: 0;
+        }
+
+        .text-area {
+            margin-bottom: -50px;
+        }
+
+        .client-caption h3 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+
+        .client-caption p {
+            font-size: 18px;
+            margin: auto;
+            width: 70%;
+            margin-bottom: 10px;
+        }
+
+        .c1:hover,
+        .c1.active {
+            background-color: #dd4dda;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .c2:hover,
+        .c2.active {
+            background-color: #52dd4d;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .c3:hover,
+        .c3.active {
+            background-color: #f0d122;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .c4:hover,
+        .c4.active {
+            background-color: #e96b22;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .our_services {
+            background-image: url('images/loginpage1.png');
+            background-size: 100% 100%;
+
+        }
+
+        .table-body {
+            font-size: 15px;
+        }
+
+        #contact {
+            animation: contact 5s infinite;
+        }
+
+        @keyframes contact {
+            0% {
+                transform: scale(0.75);
+            }
+
+            25% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(0.75);
+            }
+
+            75% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0.75);
+            }
+        }
+
+        #bg-contact {
+            background-image: url('images/bg2.jpg');
+            background-size: 100% 100%;
+            width: 100%;
+            height: 100%;
+        }
+
+        h5 {
+            color: coral;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <div class="container head">
+                <a href="" class="navbar-brand text-warning font-weight-bold" style="font-size:40px;"> COREWEB</a>
+
+                <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+            
+                                <span class="navbar-toggler-icon"> </span>
+                            </button>-->
+
+                <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item c1">
+                            <a href="index.php " class="nav-link text-white">
+                                HOME
+                            </a>
+                        </li>
+
+                        <li class="nav-item c2">
+                            <a href="services-nav.html" class="nav-link text-white">
+                                SERVICES
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item c3">
+                            <a href="about.html " class="nav-link text-white">
+                                ABOUT US
+                            </a>
+                        </li>
+
+
+                        <!--<li class="nav-item">
+                                        <a href=" " class="nav-link text-white">
+                                            TEAM
+                                        </a>
+                                    </li>-->
+
+                        <li class="nav-item c4 active">
+                            <a href="contact.html " class="nav-link text-white">
+                                CONTACT US
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="login.php" class="nav-link text-white">
+                                <button type="submit" name="login" class="btn btn-primary login-btn">Login</button>
+                            </a>
+                        </li>
+
+
+                        <!--<li class="nav-item">
+                                        <a href="admin.php" class="nav-link text-white">
+                                            <button type="submit" name="userDetails" class="btn btn-danger login-btn"
+                                            style="width:150px;">users detail</button>
+                                        </a>
+                                    </li>-->
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <br><br><br><br>
+    <section>
+        <div class="container-fluid" id="bg-contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                        <div class="heading">
+                            <h1 style="text-transform: uppercase;"> contact us: </h1>
+                            <br>
+                            <p style="text-align: justify;">
+                            <h3> Legal Status</h3>
+                            Registered under Ministry of Social Welfare West bengal vide Reg:
+                            WB375/2019Date:15.02.2019
+                            Registered in Name of (District):Barddhaman
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                        <img src="images/Mail-Button.png" width="210px" height="210px"
+                            style="margin-left:160px;margin-top:20px;" id="contact">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br><br>
+
+    <section>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h5> Contact Person </h5>
+                    <h6>Tarak Dutta(Manager) </h6>
+                    <h6>Sujay kanti paul(Graphics Designer) </h6>
+                    <h6>Subhankar Dutta(Web Developer) </h6>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h5> Email ID </h5>
+                    <h6> tarak123@gmail.com</h6>
+                    <h6>sujay25@gmail.com</h6>
+                    <h6>duttasubho22@gmail.com</h6>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h5> Mobile Number </h5>
+                    <h6> 6985432158</h6>
+                    <h6> 8564971233</h6>
+                    <h6>7563322515</h6>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h5> Office Address </h5>
+                    <h6>DunlopNarendra Nagar, Bonhooghly Government Colony, Dakshineswar, Kolkata, West Bengal</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br><br>
+
+
+        <div class="container-fluid text-center">
+            <img src="images/map.png" width="1000px" height="500px">
+        </div>
+        <br>
+    </section>
+
+    <section style="background-color: rgb(245, 239, 239);">
+
+        <br>
+        <div class="container">
+            <div class="footer-text">
+                <h1> Follow our team </h1>
+                <p> Our team is always available for you </p>
+            </div>
+
+            <div class="footer-logo">
+                <div class="center_div">
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/footer-logo/facebook1.png"
+                            width="60px" height="60px" style="margin-left: 10px;"></a>
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/footer-logo/twitter.png"
+                            width="60px" height="60px" style="margin-left: 15px;"></a>
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/footer-logo/instragram.png"
+                            width="70px" height="60px" style="margin-left: 10px;"></a>
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/footer-logo/youtube.png"
+                            width="50px" height="50px" style="margin-left: 20px;"></a>
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/footer-logo/linkedin.png"
+                            width="65px" height="65px" style="margin-left: 15px;"></a>
+
+                    <a href="signup.php"><button type="submit" style="margin-left:80%; margin-top: -170px;
+                           width:150px; height:50px;" class="btn btn-danger">signup</button></a>
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <br>
+    </section>
+    <br><br>
+
+
+
+</body>
+
+</html>
